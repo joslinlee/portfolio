@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+
+  .banner {
+    background-color: #B8336A;
+  }
+  .projects {
+    background-color: #726DA8;
+  }
+  .skills {
+    background-color: #A0D2DB;
+  }
+  .about {
+    background-color: #C490D1;
+  }
+}

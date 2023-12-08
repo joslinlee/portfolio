@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+    head 
+        title Joslin Lee 
+
+    header 
+        include _includes/navigation.pug
+
+    body
+    .container 
+        div.banner
+        include _includes/banner.pug
+    br
+    hr
+    br
+    .container
+        div.projects 
+        include _includes/category/projects.pug
+    hr
+    .container 
+        div.skills
+        include _includes/category/skills.pug
+    hr
+    .container
+        div.about
+        include _includes/category/about.pug

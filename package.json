@@ -1,0 +1,19 @@
+{
+  "name": "jl-website",
+  "version": "0.0.1",
+  "description": "Joslin Lee Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run pug && npm run sass",
+    "pug": "pug -o dist src/pug",
+    "sass": "sass src/scss:dist/css"
+  },
+  "author": "Joslin Lee",
+  "license": "Proprietary",
+  "dependencies": {
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
