@@ -1,26 +1,19 @@
 doctype html
 html(lang="en")
     head 
+        link(rel="stylesheet", href="css/main.css")
         title Joslin Lee Portfolio
 
     header 
         include _includes/navigation.pug
 
     body
-    .container 
-        div.banner
         include _includes/banner.pug
-    br
-    hr
-    br
-    .container
-        div.projects 
+        br
+        hr
+        br
         include _includes/category/projects.pug
-    hr
-    .container 
-        div.skills
+        hr
         include _includes/category/skills.pug
-    hr
-    .container
-        div.about
+        hr
         include _includes/category/about.pug

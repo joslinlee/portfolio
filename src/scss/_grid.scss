@@ -1,17 +1,12 @@
-.container {
+.grid {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  gap: 10px;
+  height: auto;
+}
 
-  .banner {
-    background-color: #B8336A;
-  }
-  .projects {
-    background-color: #726DA8;
-  }
-  .skills {
-    background-color: #A0D2DB;
-  }
-  .about {
-    background-color: #C490D1;
-  }
+.column {
+  border: 1px solid black;
+  padding: 20px;
 }
