@@ -1,19 +1,21 @@
 doctype html
 html(lang="en")
     head 
+        link(href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet")
         link(rel="stylesheet", href="css/main.css")
         title Joslin Lee Portfolio
 
     header 
         include _includes/navigation.pug
-
-    body
-        include _includes/banner.pug
-        br
-        hr
-        br
-        include _includes/category/projects.pug
-        hr
-        include _includes/category/skills.pug
-        hr
-        include _includes/category/about.pug
+    
+    .container
+        body
+            include _includes/banner.pug
+            br
+            hr
+            br
+            include _includes/category/projects.pug
+            hr
+            include _includes/category/skills.pug
+            hr
+            include _includes/category/about.pug
