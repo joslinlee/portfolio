@@ -2,11 +2,10 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
-  gap: 10px;
+  gap: 0px;
   height: auto;
-  padding: 0px 200px;
   .column {
-    padding-left: 100px;
+    padding-left: 50px;
   }
 }
 
@@ -29,6 +28,11 @@
   gap: 10px;
   height: auto;
   padding: 10px 0px;
+  .column {
+    h2 {
+      padding-top: 10px;
+    }
+  }
 }
 
 .baby-grid {
@@ -36,6 +40,7 @@
   grid-template-columns: 25% 36% 36%;
   grid-template-rows: auto;
   gap: 20px;
+  align-items: top;
   height: auto;
   padding: 10px 0px;
   .column {
