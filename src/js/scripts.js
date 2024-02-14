@@ -1,6 +1,7 @@
 let hamburgerIcon = document.querySelector("#hamburger-icon");
 let navIsOpen = false;
-hamburgerIcon.addEventListener("click", function() {
+console.log("It worked")
+hamburgerIcon.addEventListener("click", () => {
   navIsOpen = !navIsOpen;
   let navMenu = document.querySelector("#myTopnav");
   if (navIsOpen) {

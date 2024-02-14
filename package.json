@@ -4,8 +4,8 @@
   "description": "Joslin Lee Portfolio",
   "main": "index.js",
   "scripts": {
-    "build": "npm run pug && npm run sass",
-    "pug": "pug -o dist src/pug",
+    "build": "npm run sass && npm run pug",
+    "pug": "pug src/pug -o dist",
     "sass": "sass src/scss:dist/css"
   },
   "author": "Joslin Lee",
