@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run sass && npm run pug",
-    "pug": "pug src/pug -o dist",
+    "pug": "gulp pug",
     "sass": "sass src/scss:dist/css"
   },
   "author": "Joslin Lee",
   "license": "Proprietary",
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-pug": "^5.0.0",
     "pug": "^3.0.2",
     "sass": "^1.69.5"
   }
